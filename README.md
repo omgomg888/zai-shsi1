@@ -17,3 +17,10 @@ SetPos(31, 13);
 cout<<"获得称号："<<title;
 Sleep(1000);
 cout<<"继续？ 是（y）| 否（n）制作：最牛的嘻嘻嘻";
+bulletMove();
+drawBulletToNull();
+rawBullet();
+judgeEnemy();
+flag_bullet++;
+if( 5 == flag_bullet )
+flag_bullet = 0;
