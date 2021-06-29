@@ -24,3 +24,13 @@ judgeEnemy();
 flag_bullet++;
 if( 5 == flag_bullet )
 flag_bullet = 0;
+void Game::Pause()
+SetPos(61,2);
+cout<<"               ";
+SetPos(61,2);
+cout<<"暂停中...";
+char c=_getch();
+while(c!='p')
+c=_getch();
+SetPos(61,2);
+cout<<"         ";
