@@ -34,3 +34,12 @@ while(c!='p')
 c=_getch();
 SetPos(61,2);
 cout<<"         ";
+judgePlane();
+else if ('p' == x)
+Pause();
+Shoot();
+else if( 'e' == x)
+//CloseHandle(MFUN);
+GameOver();
+/* 处理子弹 */
+if( 0 == flag_bullet )
