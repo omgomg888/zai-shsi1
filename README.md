@@ -1,11 +1,7 @@
 #include<bits/stdc++.h>
-
 #include<windows.h>
-
 #include<conio.h>
-
 #include<time.h>
-
 #include<string>
 using namespace std;
 typedef struct Frame
@@ -43,3 +39,8 @@ else if( 'e' == x)
 GameOver();
 /* 处理子弹 */
 if( 0 == flag_bullet )
+if(spot.X>=frame.position[0].X)
+if(spot.X<=frame.position[1].X)
+if(spot.Y>=frame.position[0].Y)
+if(spot.Y<=frame.position[0].Y)
+return true;
